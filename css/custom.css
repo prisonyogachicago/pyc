@@ -1,0 +1,20 @@
+/* Your custom css code goes here */
+.item {
+  flex: 1 0 15em;
+  /* margin: 1em; */
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+
+.full-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.icon {
+  padding: 1.5rem;
+}
