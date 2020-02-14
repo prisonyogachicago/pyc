@@ -15,6 +15,13 @@
       <script src="js/vendor/html5shiv.min.js"></script>
       <script src="js/vendor/respond.min.js"></script>
     <![endif]-->
+    <script>
+      document.cookie = "yummy_cookie=choco"; 
+      document.cookie = "tasty_cookie=strawberry"; 
+      console.log("----------------------")
+      console.log(document.cookie); 
+      console.log("----------------------")
+    </script>
   </head>
   <body>
 
@@ -59,7 +66,8 @@
   <div class="probootstrap-main">
 
     <section class="probootstrap-section-half">
-      <div class="probootstrap-image probootstrap-animate" data-animate-effect="fadeIn" style="background-image: url(img/HomeImgFaded.png)"></div>
+      <!-- <div class="probootstrap-image probootstrap-animate" data-animate-effect="fadeIn" style="background-image: url(img/HomeImgFaded.png)"></div> -->
+      <div class="probootstrap-image probootstrap-animate" data-animate-effect="fadeIn" style="background-image: url(http://imgur.com/LokhCTq)"></div>
       <div class="probootstrap-text">
         <div class="probootstrap-inner probootstrap-animate">
           <div class="flex-container pyc-logo">
@@ -171,23 +179,19 @@
     <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
   </div>
 
-
   <script src="js/scripts.min.js"></script>
   <script src="js/main.min.js"></script>
   <script src="js/custom.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="https://cdn.jsdelivr.net/ga-lite/latest/ga-lite.min.js" async></script>
-    <script>
+  <script src="https://cdn.jsdelivr.net/ga-lite/latest/ga-lite.min.js" async></script>
+  <script>
+    var galite = galite || {};
+        galite.UA = 'UA-85739479-1';
       WebFont.load({
         google: {
           families: ['Hind Guntur', 'Open Sans']
         }
       });
-    </script>
-    <script>
-      var galite = galite || {};
-      galite.UA = 'UA-85739479-1';
-    </script>
-
+  </script>
   </body>
 </html>
