@@ -4,6 +4,11 @@
   /* margin: 1em; */
 }
 
+.item-center {
+  flex: 1 0 15em;
+  text-align: center;
+}
+
 img {
   display: block;
   width: 100%;
