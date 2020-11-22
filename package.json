@@ -1,7 +1,6 @@
 {
   "devDependencies": {
     "browser-sync": "^2.26.5",
-    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "latest",
     "gulp-concat": "^2.6.1",
@@ -29,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/prisonyogachicago/pyc/issues"
   },
-  "homepage": "https://github.com/prisonyogachicago/pyc#readme"
+  "homepage": "https://github.com/prisonyogachicago/pyc#readme",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
 }
