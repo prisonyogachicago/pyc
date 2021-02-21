@@ -77,7 +77,7 @@
 			}
 		});
 
-		if ($(window).width() > 766) {
+		if (window.innerWidth > 767) {
 			$('body').removeClass('probootstrap-mobile-menu-active');
 			$('.probootstrap-burger-menu').removeClass('active');
 		} else {
@@ -85,7 +85,7 @@
 		}
 
 		$(window).resize(function(){
-			if ($(window).width() > 766) {
+			if (window.innerWidth > 767) {
 				$('body').removeClass('probootstrap-mobile-menu-active');
 				$('.probootstrap-burger-menu').removeClass('active');
 			} else {
