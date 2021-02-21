@@ -109,3 +109,14 @@ img {
 .heading {
   color: #00918f
 }
+
+@media (min-width: 768px) {
+  .probootstrap-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .probootstrap-main--home {
+    padding-top: 98px;
+  }
+}
