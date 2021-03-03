@@ -109,3 +109,39 @@ img {
 .heading {
   color: #00918f
 }
+
+.probootstrap-logo {
+  max-width: 170px;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .probootstrap-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .probootstrap-logo {
+    float: none;
+  }
+
+  .probootstrap-nav {
+    margin-left: 0;
+    float: left;
+  }
+
+  .probootstrap-main--home {
+    padding-top: 105px;
+  }
+}
+
+@media (min-width: 991px) {
+  .probootstrap-logo {
+    float: left;
+  }
+
+  .probootstrap-nav {
+    margin-left: 60px;
+    float: right;
+  }
+}
