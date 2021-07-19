@@ -1,4 +1,8 @@
 /* Your custom css code goes here */
+.social-buttons {
+  font-size: 3rem;
+}
+
 .item {
   flex: 1 0 15em;
   /* margin: 1em; */
@@ -44,7 +48,7 @@ img {
 }
 
 .inline-btn {
-  display: inline;
+  display: inline-block;
   padding: 5px;
   margin: 5px;
 }
