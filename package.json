@@ -23,7 +23,8 @@
     "url": "git+https://github.com/prisonyogachicago/pyc.git"
   },
   "author": "AP",
-  "license": "ISC",
+  "license": "UNLICENSED",
+  "private": true,
   "bugs": {
     "url": "https://github.com/prisonyogachicago/pyc/issues"
   },
