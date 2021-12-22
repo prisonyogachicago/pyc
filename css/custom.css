@@ -149,3 +149,8 @@ img {
     float: right;
   }
 }
+
+.paypal-donate-container {
+  max-width: 10rem;
+  height: auto;
+}
